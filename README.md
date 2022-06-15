@@ -28,6 +28,6 @@ Minimal example of express server login/registration/member-only system with:
   * /dostuff
   * GET
   * INPUT: none
-  * `jwt.verify` to decode JWT
-    Member does stuff like ask server to modify their blog.  
-    All Server gets is a JWT token; Server needs to decode JWT to get username to do stuff on behalf of member.
+  * `jwt.verify` to decode JWT  
+    Ex Scenario: Member does stuff like ask server to modify their blog.  
+    But all Server sees is a JWT token; Server needs to decode JWT to get username to do stuff on behalf of member.
