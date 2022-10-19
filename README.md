@@ -1,11 +1,20 @@
-# MinLoginRegister
+# Minimal Example of Login Registration system with JWT
+
+## How to run
+
+```bash
+node index.js
+```
+
+## Description
+
 Minimal example of express server login/registration/member-only system with: 
   * hashing for registration(Bcrypt.hash)
   * hash-comparison for login(Bcrypt.compare) 
   * login sessions(JWT.sign)
   * Member activity(JWT.verify)
 
-# Routes
+## Routes
 
 * Home Page
   * GET: `http://localhost:3300/` 
